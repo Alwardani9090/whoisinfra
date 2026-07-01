@@ -13,8 +13,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Alwardani9090/whois/internal/runner"
-	"github.com/Alwardani9090/whois/whois"
+	"github.com/Alwardani9090/whoisinfra/internal/runner"
+	"github.com/Alwardani9090/whoisinfra/whois"
 )
 
 func main() {

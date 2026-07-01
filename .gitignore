@@ -1,0 +1,10 @@
+/whois
+/cmd/whois/whois
+whois/whois
+*.exe
+*.test
+/bin/
+/dist/
+.DS_Store
+.idea/
+.vscode/

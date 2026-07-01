@@ -2,10 +2,8 @@
 
 A fast, dependency-free CLI recon tool written in Go that chains **domain WHOIS → DNS resolution → ASN lookup → CIDR discovery** into a single command, and can emit clean, structured JSON for pipelines.
 
-[![CI](https://github.com/Alwardani9090/whois/actions/workflows/ci.yml/badge.svg)](https://github.com/Alwardani9090/whois/actions/workflows/ci.yml)
-[![Go Report Card](https://goreportcard.com/badge/github.com/Alwardani9090/whois)](https://goreportcard.com/report/github.com/Alwardani9090/whois)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Go Version](https://img.shields.io/badge/go-%3E%3D1.22-00ADD8?logo=go)](go.mod)
+[![CI](https://github.com/Alwardani9090/whoisinfra/actions/workflows/ci.yml/badge.svg)](https://github.com/Alwardani9090/whoisinfra/actions/workflows/ci.yml)[![Go Report Card](https://goreportcard.com/badge/github.com/Alwardani9090/whois)](https://goreportcard.com/report/github.com/Alwardani9090/whois)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Alwardani9090/whoisinfra)](https://goreportcard.com/report/github.com/Alwardani9090/whoisinfra)[![Go Version](https://img.shields.io/badge/go-%3E%3D1.22-00ADD8?logo=go)](go.mod)
 
 ---
 
@@ -33,13 +31,13 @@ domain  →  WHOIS registry record  →  resolved IPs  →  ASN (via Team Cymru)
 ### Using `go install`
 
 ```bash
-go install github.com/Alwardani9090/whois/cmd/whois@latest
+go install github.com/Alwardani9090/whoisinfra/cmd/whois@latest
 ```
 
 ### From source
 
 ```bash
-git clone https://github.com/Alwardani9090/whois.git
+git clone https://github.com/Alwardani9090/whoisinfra.git
 cd whois
 go build -o whois ./cmd/whois
 ```

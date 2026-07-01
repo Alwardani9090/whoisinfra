@@ -9,10 +9,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/Alwardani9090/whois/asntocidr"
-	"github.com/Alwardani9090/whois/cidrtoips"
-	"github.com/Alwardani9090/whois/internal/progress"
-	"github.com/Alwardani9090/whois/whois"
+	"github.com/Alwardani9090/whoisinfra/asntocidr"
+	"github.com/Alwardani9090/whoisinfra/cidrtoips"
+	"github.com/Alwardani9090/whoisinfra/internal/progress"
+	"github.com/Alwardani9090/whoisinfra/whois"
 )
 
 type Options struct {
