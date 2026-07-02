@@ -2,7 +2,7 @@
 
 A fast, dependency-free CLI recon tool written in Go that chains **domain WHOIS → DNS resolution → ASN lookup → CIDR discovery** into a single command, and can emit clean, structured JSON for pipelines.
 
-[![CI](https://github.com/Alwardani9090/whoisinfra/actions/workflows/ci.yml/badge.svg)](https://github.com/Alwardani9090/whoisinfra/actions/workflows/ci.yml)[![Go Report Card](https://goreportcard.com/badge/github.com/Alwardani9090/whoisinfra)](https://goreportcard.com/report/github.com/Alwardani9090/whoisinfra)
+[![CI](https://github.com/Alwardani9090/whoisinfra/actions/workflows/ci.yml/badge.svg)](https://github.com/Alwardani9090/whoisinfra/actions/workflows/ci.yml)
 [![Go Version](https://img.shields.io/badge/go-%3E%3D1.22-00ADD8?logo=go)](go.mod)
 
 ---
